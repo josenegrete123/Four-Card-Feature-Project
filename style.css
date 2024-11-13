@@ -7,7 +7,6 @@
     --grayish-blue: hsl(229, 6%, 66%);
     --ligh-gray: hsl(0, 0%, 98%);
     
-    --medium-font: 15px;
     --light-weight: 200;
     --medium-weight: 400;
     --heavy-weight: 600;
@@ -85,5 +84,15 @@ textarea:not([rows]) {
 /* Anything that has been anchored to should have extra scroll margin */
 :target {
   scroll-margin-block: 5ex;
+}
+
+.intro__title-top {
+    font-family: 'Poppins', serif;
+    font-weight: var(--light-weight);
+    font-size: 1.5rem;
+    letter-spacing: 0.17px;
+    text-align: center;
+
+    color: var(--dark-blue);
 }
 
