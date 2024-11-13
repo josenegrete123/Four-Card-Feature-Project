@@ -106,3 +106,14 @@ textarea:not([rows]) {
 
     color: var(--dark-blue);
 }
+
+.intro__body {
+    font-family: 'Poppins', serif;
+    font-weight: var(--light-weight);
+    font-size: 0.938rem;
+    line-height: 25px;
+    letter-spacing: 0.1px;
+    text-align: center;
+
+    color: var(--dark-blue);
+}
