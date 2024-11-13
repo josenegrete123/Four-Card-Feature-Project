@@ -86,6 +86,16 @@ textarea:not([rows]) {
   scroll-margin-block: 5ex;
 }
 
+h1, h2, p {
+    margin: 0;
+}
+
+main {
+    
+    margin-top: 5.3125em;
+    padding: 1.5em;
+}
+
 .intro__title-top {
     font-family: 'Poppins', serif;
     font-weight: var(--light-weight);
@@ -116,4 +126,29 @@ textarea:not([rows]) {
     text-align: center;
 
     color: var(--dark-blue);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
+
+.first-section {
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    gap: 1em;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+
+    margin-top: 4.75em;
+    padding: 1em;
+    border-top: 2px solid var(--cyan);
+    border-radius: 0.5em;
+}
+
+.first-section__image {
+    align-self: flex-end;
+    width: 57px;
+    height: 57px;
 }
